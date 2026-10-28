@@ -1,0 +1,1775 @@
+{
+  "version": "2.21",
+  "children": [
+    {
+      "type": "frame",
+      "id": "AJhNO",
+      "x": 0,
+      "y": 0,
+      "name": "Landing ES — Desktop",
+      "clip": true,
+      "width": 1440,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "C3JxN",
+          "name": "Header",
+          "width": "fill_container",
+          "stroke": "$line",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "padding": [
+            20,
+            120
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "AuCy1",
+              "name": "Logo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "BZJLu",
+                  "name": "Dot",
+                  "fill": "$ok",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "type": "text",
+                  "id": "fs3In",
+                  "name": "Wordmark",
+                  "fill": "$text",
+                  "content": "Hikui Koe",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.3
+                },
+                {
+                  "type": "text",
+                  "id": "YY04M",
+                  "name": "Kanji",
+                  "fill": "$muted",
+                  "content": "低い声",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Zxnce",
+              "name": "Header Actions",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OJEf5",
+                  "name": "Lang Switch",
+                  "cornerRadius": 8,
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "gap": 2,
+                  "padding": 3,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "O242nn",
+                      "name": "ES",
+                      "fill": "$surface2",
+                      "cornerRadius": 6,
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PwGEh",
+                          "name": "ES Label",
+                          "fill": "$text",
+                          "content": "ES",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "e7b6lT",
+                      "name": "EN",
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "w48CS",
+                          "name": "EN Label",
+                          "fill": "$muted",
+                          "content": "EN",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rFoK4",
+                  "name": "Header Download",
+                  "fill": "$accent",
+                  "cornerRadius": 8,
+                  "gap": 8,
+                  "padding": [
+                    9,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "u1txCf",
+                      "name": "Download Icon",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "download",
+                      "library": "lucide",
+                      "fill": "$accentInk"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oICiT",
+                      "name": "Label",
+                      "fill": "$accentInk",
+                      "content": "Descargar",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KRSLi",
+          "name": "Hero",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "radial",
+            "enabled": true,
+            "rotation": 0,
+            "size": {
+              "width": 0.9,
+              "height": 1.1
+            },
+            "colors": [
+              {
+                "color": "#6c8cff22",
+                "position": 0
+              },
+              {
+                "color": "#11121700",
+                "position": 1
+              }
+            ],
+            "center": {
+              "x": 0.72,
+              "y": 0.45
+            }
+          },
+          "gap": 72,
+          "padding": [
+            88,
+            120,
+            0,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "t0amOB",
+              "name": "Hero Copy",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                0,
+                0,
+                88,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uUl1y",
+                  "name": "Eyebrow",
+                  "cornerRadius": 999,
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "gap": 8,
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "Qv344",
+                      "name": "Live Dot",
+                      "fill": "$ok",
+                      "width": 7,
+                      "height": 7
+                    },
+                    {
+                      "type": "text",
+                      "id": "L0SJFr",
+                      "name": "Eyebrow Text",
+                      "fill": "$muted",
+                      "content": "Para Windows · Gratis · Código en GitHub",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "k55ER9",
+                  "name": "H1",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "La respuesta justa, en voz baja, mientras presentas.",
+                  "lineHeight": 1.05,
+                  "fontFamily": "Inter",
+                  "fontSize": 60,
+                  "fontWeight": "700",
+                  "letterSpacing": -1.8
+                },
+                {
+                  "type": "text",
+                  "id": "y5ofw",
+                  "name": "Subtitle",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Hikui Koe escucha tu reunión en Meet, Zoom o Teams, transcribe las preguntas de los demás y te sugiere qué responder a partir de tus propios documentos. Una idea central y 3–5 viñetas, para leer de un vistazo.",
+                  "lineHeight": 1.55,
+                  "fontFamily": "Inter",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "x42oi",
+                  "name": "CTAs",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Cmnip",
+                      "name": "Primary CTA",
+                      "fill": "$accent",
+                      "cornerRadius": 10,
+                      "gap": 10,
+                      "padding": [
+                        15,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "DqAFi",
+                          "name": "Win Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "download",
+                          "library": "lucide",
+                          "fill": "$accentInk"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HmYo3",
+                          "name": "Label",
+                          "fill": "$accentInk",
+                          "content": "Descargar para Windows",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iVh1U",
+                      "name": "Secondary CTA",
+                      "cornerRadius": 10,
+                      "stroke": "$line",
+                      "strokeWidth": 1,
+                      "gap": 10,
+                      "padding": [
+                        15,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "jXFzQ",
+                          "name": "GH Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "github",
+                          "library": "lucide",
+                          "fill": "$text"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jU9rQ",
+                          "name": "Label",
+                          "fill": "$text",
+                          "content": "Ver en GitHub",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "bTlbV",
+                  "name": "Req note",
+                  "fill": "$muted",
+                  "content": "Windows 10 (2004+) / 11 · Requiere Ollama",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qz54e",
+              "name": "Hero Shot",
+              "width": 460,
+              "height": 640,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/live-es.png",
+                "mode": "cover"
+              },
+              "cornerRadius": 14,
+              "stroke": "$line",
+              "strokeWidth": 1,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000099",
+                "offset": {
+                  "x": 0,
+                  "y": 30
+                },
+                "blur": 80
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aK9W2",
+          "name": "How It Works",
+          "width": "fill_container",
+          "fill": "$surface",
+          "stroke": "$line",
+          "strokeWidth": {
+            "top": 1,
+            "bottom": 1
+          },
+          "gap": 96,
+          "padding": [
+            112,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "x5cl6b",
+              "name": "Context Shot",
+              "width": 400,
+              "height": 557,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/context-es.png",
+                "mode": "cover"
+              },
+              "cornerRadius": 12,
+              "stroke": "$line",
+              "strokeWidth": 1,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000080",
+                "offset": {
+                  "x": 0,
+                  "y": 24
+                },
+                "blur": 60
+              }
+            },
+            {
+              "type": "frame",
+              "id": "h49NJ",
+              "name": "Steps Column",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "q3SX4",
+                  "name": "Section Head",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MAHBo",
+                      "name": "Kicker",
+                      "fill": "$accent",
+                      "content": "CÓMO FUNCIONA",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZfV5S",
+                      "name": "H2",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Tres pasos, sin cambiar tu forma de presentar.",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Inter",
+                      "fontSize": 40,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YVUAg",
+                  "name": "Steps",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CYE8G",
+                      "name": "Step 01",
+                      "width": "fill_container",
+                      "stroke": "$line",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 24,
+                      "padding": [
+                        24,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "daLYY",
+                          "name": "Num",
+                          "fill": "$accent",
+                          "content": "01",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "frame",
+                          "id": "J7UlC",
+                          "name": "Step Text",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "WV5yD",
+                              "name": "Step Title",
+                              "fill": "$text",
+                              "content": "Carga tus documentos",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "F9JIt2",
+                              "name": "Step Desc",
+                              "fill": "$muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Presentación, documentación del proyecto, notas o datos (PDF, DOCX, HTML, TXT, MD). Se indexan en tu PC.",
+                              "lineHeight": 1.55,
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gAkdX",
+                      "name": "Step 02",
+                      "width": "fill_container",
+                      "stroke": "$line",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 24,
+                      "padding": [
+                        24,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Q7uh8",
+                          "name": "Num",
+                          "fill": "$accent",
+                          "content": "02",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "frame",
+                          "id": "k6DdF",
+                          "name": "Step Text",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ANbeq",
+                              "name": "Step Title",
+                              "fill": "$text",
+                              "content": "Escucha la reunión",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "rlLjO",
+                              "name": "Step Desc",
+                              "fill": "$muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Captura el audio del sistema en Meet, Zoom o Teams y transcribe lo que dicen los demás. Tu micrófono no se captura.",
+                              "lineHeight": 1.55,
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "d2T4yi",
+                      "name": "Step 03",
+                      "width": "fill_container",
+                      "stroke": "$line",
+                      "gap": 24,
+                      "padding": [
+                        24,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LC6UD",
+                          "name": "Num",
+                          "fill": "$accent",
+                          "content": "03",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IeHww",
+                          "name": "Step Text",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "BfWUu",
+                              "name": "Step Title",
+                              "fill": "$text",
+                              "content": "Lee la respuesta sugerida",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "EoQQz",
+                              "name": "Step Desc",
+                              "fill": "$muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Detecta la pregunta y te propone una idea central en negrita y 3–5 viñetas, en primera persona.",
+                              "lineHeight": 1.55,
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "u1iVe",
+          "name": "Features",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": [
+            112,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "R9cvU",
+              "name": "Section Head",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PyAHU",
+                  "name": "Kicker",
+                  "fill": "$accent",
+                  "content": "CARACTERÍSTICAS",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "OFsGw",
+                  "name": "H2",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Hecho para hablar con seguridad, no para improvisar datos.",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Inter",
+                  "fontSize": 40,
+                  "fontWeight": "700",
+                  "letterSpacing": -1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LhSFs",
+              "name": "Feature Row 1",
+              "width": "fill_container",
+              "gap": 48,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VFmJl",
+                  "name": "Feature",
+                  "width": "fill_container",
+                  "stroke": "$line",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "YJP2J",
+                      "name": "Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "shield-check",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VXnbH",
+                      "name": "Feature Title",
+                      "fill": "$text",
+                      "content": "No inventa datos",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lN4dN",
+                      "name": "Feature Desc",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Si algo no está en tus documentos, deja un marcador como [X %] o sugiere «lo confirmo y te lo envío».",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "y1uOL",
+                  "name": "Feature",
+                  "width": "fill_container",
+                  "stroke": "$line",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "DxKIe",
+                      "name": "Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "lock",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Vetcy",
+                      "name": "Feature Title",
+                      "fill": "$text",
+                      "content": "Local o nube rápida",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dpgUc",
+                      "name": "Feature Desc",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Whisper en tu GPU y Ollama para total privacidad, o APIs con capa gratuita y muy rápidas (Groq, Cerebras): primera palabra en menos de ~2 s.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Sl06g",
+                  "name": "Feature",
+                  "width": "fill_container",
+                  "stroke": "$line",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "cwbSf",
+                      "name": "Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "eye-off",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ocr8a",
+                      "name": "Feature Title",
+                      "fill": "$text",
+                      "content": "Invisible al compartir",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TMZyD",
+                      "name": "Feature Desc",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "La ventana no aparece al compartir pantalla ni en la barra de tareas o Alt+Tab. Opacidad ajustable.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VwiXa",
+              "name": "Feature Row 2",
+              "width": "fill_container",
+              "gap": 48,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gwlw4",
+                  "name": "Feature",
+                  "width": "fill_container",
+                  "stroke": "$line",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "NgE4H",
+                      "name": "Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "message-square-text",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "text",
+                      "id": "F8a002",
+                      "name": "Feature Title",
+                      "fill": "$text",
+                      "content": "Detecta las preguntas",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RUh0y",
+                      "name": "Feature Desc",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Responde solo cuando alguien pregunta. O fuerza la respuesta, o escribe la pregunta a mano.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KWKAC",
+                  "name": "Feature",
+                  "width": "fill_container",
+                  "stroke": "$line",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "iNDaf",
+                      "name": "Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "globe",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GKp5K",
+                      "name": "Feature Title",
+                      "fill": "$text",
+                      "content": "Español e inglés",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LJanr",
+                      "name": "Feature Desc",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Transcribe y responde en español o en inglés, o detecta el idioma automáticamente.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GiF7Z",
+                  "name": "Feature",
+                  "width": "fill_container",
+                  "stroke": "$line",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "mgh43",
+                      "name": "Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "keyboard",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uuM5f",
+                      "name": "Feature Title",
+                      "fill": "$text",
+                      "content": "Atajos de teclado",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OHXqX",
+                      "name": "Feature Desc",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ctrl+Shift+H mostrar · L escuchar · Space responder · K limpiar.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "A8jP3s",
+          "name": "FAQ",
+          "width": "fill_container",
+          "fill": "$surface",
+          "stroke": "$line",
+          "strokeWidth": {
+            "top": 1
+          },
+          "gap": 96,
+          "padding": [
+            112,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Z9u2m",
+              "name": "FAQ Head Col",
+              "width": 380,
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "k4ZOu",
+                  "name": "Kicker",
+                  "fill": "$accent",
+                  "content": "PREGUNTAS FRECUENTES",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "t3VDA",
+                  "name": "H2",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Lo que suelen preguntar.",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Inter",
+                  "fontSize": 40,
+                  "fontWeight": "700",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "mDZU2",
+                  "name": "Name note",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "低い声 (hikui koe) significa «voz baja» en japonés: alguien que te sopla la respuesta en voz baja.",
+                  "lineHeight": 1.55,
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Jp6b1",
+              "name": "FAQ List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Wd1qk",
+                  "name": "FAQ Item",
+                  "width": "fill_container",
+                  "stroke": "$line",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    22,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nExuU",
+                      "name": "Q Row",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "y6YW6",
+                          "name": "Question",
+                          "fill": "$text",
+                          "content": "¿Es gratis?",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "qThTx",
+                          "name": "Chevron",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "minus",
+                          "library": "lucide",
+                          "fill": "$muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "o7Xkt",
+                      "name": "Answer",
+                      "fill": "$muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Sí, Hikui Koe es gratis y su código está en GitHub. Para responder puedes usar Ollama en local o APIs con capa gratuita como Groq o Cerebras.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "l7cyo",
+                  "name": "FAQ Item",
+                  "width": "fill_container",
+                  "stroke": "$line",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    22,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "g1yQRa",
+                      "name": "Q Row",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "U94Og",
+                          "name": "Question",
+                          "fill": "$text",
+                          "content": "¿Qué necesito?",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "f0XSe",
+                          "name": "Chevron",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "$muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wYlwl",
+                  "name": "FAQ Item",
+                  "width": "fill_container",
+                  "stroke": "$line",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    22,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "N3nSSM",
+                      "name": "Q Row",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "l6zrws",
+                          "name": "Question",
+                          "fill": "$text",
+                          "content": "¿Se ve al compartir pantalla?",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "rP7Dy",
+                          "name": "Chevron",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "$muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QIgkF",
+                  "name": "FAQ Item",
+                  "width": "fill_container",
+                  "stroke": "$line",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    22,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "e6CFoc",
+                      "name": "Q Row",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "O2LuWT",
+                          "name": "Question",
+                          "fill": "$text",
+                          "content": "¿Mis documentos salen de mi PC?",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "T4RXv",
+                          "name": "Chevron",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "$muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "L166Jq",
+                  "name": "FAQ Item",
+                  "width": "fill_container",
+                  "stroke": "$line",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    22,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "JmwDE",
+                      "name": "Q Row",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "enLPk",
+                          "name": "Question",
+                          "fill": "$text",
+                          "content": "¿Qué idiomas entiende?",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "Ua3mM",
+                          "name": "Chevron",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "$muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PAoyR",
+                  "name": "FAQ Item",
+                  "width": "fill_container",
+                  "stroke": "$line",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    22,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OUNS7",
+                      "name": "Q Row",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "W4ID0b",
+                          "name": "Question",
+                          "fill": "$text",
+                          "content": "¿Funciona en Mac?",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "fi71L",
+                          "name": "Chevron",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "$muted"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RqXaF",
+          "name": "Footer",
+          "width": "fill_container",
+          "stroke": "$line",
+          "strokeWidth": {
+            "top": 1
+          },
+          "padding": [
+            28,
+            120
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "JzFBy",
+              "name": "Copy",
+              "fill": "$muted",
+              "content": "© 2026 Hikui Koe",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "b6mMo",
+              "name": "Footer Links",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "T14Kb",
+                  "name": "GitHub",
+                  "fill": "$muted",
+                  "content": "GitHub",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "G2qYN",
+                  "name": "Lang",
+                  "fill": "$muted",
+                  "content": "English",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "iWUU0",
+      "x": 1520,
+      "y": 0,
+      "name": "Landing ES — Mobile 360",
+      "clip": true,
+      "width": 360,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "S1Z5i",
+          "name": "Header",
+          "width": "fill_container",
+          "stroke": "$line",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "padding": [
+            14,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "a2oDz",
+              "name": "Logo",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "YRYsm",
+                  "name": "Dot",
+                  "fill": "$ok",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "text",
+                  "id": "Yupye",
+                  "name": "Wordmark",
+                  "fill": "$text",
+                  "content": "Hikui Koe",
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UtjuX",
+              "name": "Actions",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xqSLO",
+                  "name": "Lang",
+                  "fill": "$muted",
+                  "content": "EN",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "VFFAZ",
+                  "name": "Download",
+                  "fill": "$accent",
+                  "cornerRadius": 8,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Jn1hz",
+                      "name": "Label",
+                      "fill": "$accentInk",
+                      "content": "Descargar",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BTJfM",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            40,
+            16,
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "WrRb6",
+              "name": "Eyebrow",
+              "fill": "$muted",
+              "content": "Para Windows · Gratis · Código en GitHub",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "q9Fyqm",
+              "name": "H1",
+              "fill": "$text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "La respuesta justa, en voz baja, mientras presentas.",
+              "lineHeight": 1.08,
+              "fontFamily": "Inter",
+              "fontSize": 34,
+              "fontWeight": "700",
+              "letterSpacing": -0.8
+            },
+            {
+              "type": "text",
+              "id": "ECiWY",
+              "name": "Subtitle",
+              "fill": "$muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Hikui Koe escucha tu reunión en Meet, Zoom o Teams, transcribe las preguntas de los demás y te sugiere qué responder a partir de tus propios documentos.",
+              "lineHeight": 1.55,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Ckz8W",
+              "name": "Primary CTA",
+              "width": "fill_container",
+              "fill": "$accent",
+              "cornerRadius": 10,
+              "padding": [
+                14,
+                20
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LHxW4",
+                  "name": "Label",
+                  "fill": "$accentInk",
+                  "content": "Descargar para Windows",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "l05k4h",
+              "name": "Secondary CTA",
+              "width": "fill_container",
+              "cornerRadius": 10,
+              "stroke": "$line",
+              "strokeWidth": 1,
+              "padding": [
+                14,
+                20
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wnXud",
+                  "name": "Label",
+                  "fill": "$text",
+                  "content": "Ver en GitHub",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "svtBe",
+              "name": "Shot Wrap",
+              "width": "fill_container",
+              "padding": [
+                12,
+                0,
+                40,
+                0
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "q5PR2K",
+                  "name": "Hero Shot",
+                  "width": 328,
+                  "height": 456,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/live-es.png",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": 12,
+                  "stroke": "$line",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "bg": {
+      "type": "color",
+      "value": "#111217"
+    },
+    "surface": {
+      "type": "color",
+      "value": "#1a1b21"
+    },
+    "surface2": {
+      "type": "color",
+      "value": "#23242c"
+    },
+    "line": {
+      "type": "color",
+      "value": "#2e3039"
+    },
+    "text": {
+      "type": "color",
+      "value": "#eceef4"
+    },
+    "muted": {
+      "type": "color",
+      "value": "#9a9eae"
+    },
+    "accent": {
+      "type": "color",
+      "value": "#6c8cff"
+    },
+    "accentInk": {
+      "type": "color",
+      "value": "#0d1022"
+    },
+    "ok": {
+      "type": "color",
+      "value": "#3ddc97"
+    }
+  },
+  "fileToken": "02a39bac-db94-4e08-bd78-f2c72a14ff3f"
+}
