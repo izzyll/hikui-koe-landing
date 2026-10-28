@@ -267,7 +267,7 @@ export const dict: Record<Lang, Dict> = {
 /** Ruta relativa de la home de cada idioma (es sin prefijo, en en /en/). */
 export const homePath: Record<Lang, string> = { es: '/', en: '/en/' };
 
-/** Ruta con el `base` de astro.config (p. ej. /repo/ en GitHub Pages de proyecto). */
+/** Ruta con el `base` de astro.config (normalmente "/"). */
 export const withBase = (path: string) =>
   `${import.meta.env.BASE_URL.replace(/\/$/, '')}/${path.replace(/^\//, '')}`;
 
