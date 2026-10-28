@@ -1,8 +1,4 @@
-# Cloudflare Pages: cabeceras HTTP.
-
-# Evita que el dominio de preview *.pages.dev compita con el dominio real en buscadores.
-https://:project.pages.dev/*
-  X-Robots-Tag: noindex
+# Cloudflare (Workers static assets / Pages): cabeceras HTTP.
 
 /*
   X-Content-Type-Options: nosniff

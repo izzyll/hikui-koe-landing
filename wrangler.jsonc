@@ -1,0 +1,12 @@
+// Cloudflare Workers — sitio 100 % estático (sin adaptador SSR).
+// Sirve el contenido de ./dist generado por `npm run build`.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hikui-koe-landing",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
